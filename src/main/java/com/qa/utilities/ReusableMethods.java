@@ -8,5 +8,10 @@ public class ReusableMethods {
 		JsonPath jp = new JsonPath(response);
 		return jp;
 	}
+	
+	public static JsonPath rawToJsonInt(String response) {
+		JsonPath jp = new JsonPath(response);
+		return jp;
+	}
 
 }

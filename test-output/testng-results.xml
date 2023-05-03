@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28320" started-at="2023-05-02T16:50:53Z" finished-at="2023-05-02T16:51:21Z">
+  <suite name="Default suite" duration-ms="3651" started-at="2023-05-03T15:00:57Z" finished-at="2023-05-03T15:01:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28320" started-at="2023-05-02T16:50:53Z" finished-at="2023-05-02T16:51:21Z">
-      <class name="com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers">
-        <test-method status="PASS" signature="createData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers@5db250b4]" name="createData" duration-ms="13577" started-at="2023-05-02T22:20:53Z" data-provider="getdata" finished-at="2023-05-02T22:21:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Virat Kohli]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9777186318]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="3651" started-at="2023-05-03T15:00:57Z" finished-at="2023-05-03T15:01:00Z">
+      <class name="com.qa.apistesting.JiraBugCreateAPIAndAddComent">
+        <test-method status="PASS" signature="createBug()[pri:0, instance:com.qa.apistesting.JiraBugCreateAPIAndAddComent@37918c79]" name="createBug" duration-ms="3609" started-at="2023-05-03T20:30:57Z" finished-at="2023-05-03T20:31:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createData -->
-        <test-method status="PASS" signature="createData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers@5db250b4]" name="createData" duration-ms="7804" started-at="2023-05-02T22:21:07Z" data-provider="getdata" finished-at="2023-05-02T22:21:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sourav Ganguli]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9938151837]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createData -->
-        <test-method status="PASS" signature="createData(java.lang.String, java.lang.String)[pri:0, instance:com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers@5db250b4]" name="createData" duration-ms="6885" started-at="2023-05-02T22:21:14Z" data-provider="getdata" finished-at="2023-05-02T22:21:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sachine Tendulkar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9437271478]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createData -->
-      </class> <!-- com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers -->
+        </test-method> <!-- createBug -->
+      </class> <!-- com.qa.apistesting.JiraBugCreateAPIAndAddComent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

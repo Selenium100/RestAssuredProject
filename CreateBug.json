@@ -1,0 +1,12 @@
+{
+    "fields":{
+        "project":{
+            "key":"RES"
+        },
+        "summary":"Nitya Card Defect",
+        "description":"Creating my fourth bug",
+        "issuetype":{
+            "name":"Bug"
+        }
+    }
+}

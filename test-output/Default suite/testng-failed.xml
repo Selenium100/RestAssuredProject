@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers">
+      <class name="com.qa.apistesting.JiraBugCreateAPIAndAddComent">
         <methods>
-          <include name="createData" invocation-numbers="0 1 2"/>
+          <include name="createBug"/>
         </methods>
-      </class> <!-- com.qa.apistesting.CreateMultipleDataWithDiffPlacesAndPhoneNumbers -->
+      </class> <!-- com.qa.apistesting.JiraBugCreateAPIAndAddComent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
