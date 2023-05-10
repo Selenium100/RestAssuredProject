@@ -21,7 +21,7 @@ public class E2ETesting {
 		
 		RestAssured.baseURI = AddPlacePayload.baseURI;
 		
-		//POST
+		//POST by Nitya
 	String response =	given().log().all().queryParam("key", "qaclick123").header("Content-Type" , "application/json")
 		.body(AddPlacePayload.addPlace(place,phoneno))
 		.when().log().all().post("/maps/api/place/add/json").then().log().all()
