@@ -1,0 +1,28 @@
+1.Request Spec Builder
+------------------------
+
+req = new RequestSpecBuilder().setContentType(ContentType.JSON)
+      .setBaseUri("https://www.google.com")
+      .addQueryParam("key","qaclick123")
+      .build();
+
+given().spec(req).body()
+
+
+
+2.Response Spec Builder
+------------------------
+res = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+
+then().spec(res).extract().response();
+
+
+
+3. By pass SSL certification 
+---------------------------
+given().relaxedHTTPSValidation()
+
+4. Maintain sessionid across the tests then use below:
+
+SessionFilter session = new SessionFilter();
+   given().filter(session)  
